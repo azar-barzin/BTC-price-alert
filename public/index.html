@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitcoin Price Forecast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="payment-section">
+        <h1>Access Restricted</h1>
+        <p>Please pay 1 USDT to access the application. Enter your wallet address below:</p>
+        <form id="payment-form">
+            <input type="text" id="withdrawal-address" placeholder="Enter your wallet address" required>
+            <button type="submit">Pay 1 USDT</button>
+        </form>
+    </div>
+    <div id="app" style="display: none;">
+        <h1>Bitcoin Price Forecast</h1>
+        <div id="price">Loading...</div>
+        <div id="forecast">Forecasting...</div>
+        <div id="signal">Signal: Waiting...</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
